@@ -26,9 +26,8 @@ O projeto estará disponível em `http://localhost:5173`
 
 ## Links externos
 
-O projeto está disponível em [https://jogo-da-memoria-git-master-gabrielduarterbs-projects.vercel.app/](https://jogo-da-memoria-git-master-gabrielduarterbs-projects.vercel.app/)
-
-[Documentação do projeto](https://gabrielduarterb.github.io/jogo-da-memoria/)
+-[Site do jogo](https://jogo-da-memoria-git-master-gabrielduarterbs-projects.vercel.app/)
+- [Documentação do projeto](https://gabrielduarterb.github.io/jogo-da-memoria/)
 
 ## Regras do jogo
 
@@ -67,6 +66,7 @@ src/
 - Utilização de emojis para representar as cartas para facilitar a identificação e diferenciação entre elas.
 - Paleta de cores centralizada via variáveis CSS, facilitando manutenção e troca de tema.
 - Layout em grid responsivo para organização das cartas no tabuleiro
+- Uso do site de [favicon.io](https://favicon.io/) para geração do favicon.
 
 ## Bonus
 
