@@ -24,3 +24,7 @@ Projeto desenvolvido para desafio técnico.
 - [Estrutura do projeto](estrutura.md)
 - [Decisões técnicas](decisoes-tecnicas.md)
 - [Decisões de design](decisoes-design.md)
+
+## Links externos
+
+O projeto está disponível em [https://jogo-da-memoria-git-master-gabrielduarterbs-projects.vercel.app/](https://jogo-da-memoria-git-master-gabrielduarterbs-projects.vercel.app/)

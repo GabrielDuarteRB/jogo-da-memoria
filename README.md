@@ -24,6 +24,12 @@ npm run dev
 
 O projeto estará disponível em `http://localhost:5173`
 
+## Links externos
+
+O projeto está disponível em [https://jogo-da-memoria-git-master-gabrielduarterbs-projects.vercel.app/](https://jogo-da-memoria-git-master-gabrielduarterbs-projects.vercel.app/)
+
+[Documentação do projeto](https://gabrielduarterb.github.io/jogo-da-memoria/)
+
 ## Regras do jogo
 
 1. Digite o nome do jogador e clique em "Iniciar Jogo"
@@ -62,3 +68,7 @@ src/
 - Paleta de cores centralizada via variáveis CSS, facilitando manutenção e troca de tema.
 - Layout em grid responsivo para organização das cartas no tabuleiro
 
+## Bonus
+
+- Implementação de uma documentação do projeto utilizando [MkDocs](https://www.mkdocs.org/).
+- Foi adicionando um fluxo de CI/CD para deploy automático da documentação no GitHub Pages.
