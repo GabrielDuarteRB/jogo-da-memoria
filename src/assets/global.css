@@ -1,5 +1,6 @@
 :root {
   --primaria: #7c6af7;
+  --erro: #f87171;
   --fundo: #0d0d0f;
   --superficie: #1e1e24;
   --texto: #e8e8f0;
@@ -26,6 +27,7 @@ body {
 button {
   border: none;
   cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 button:hover {

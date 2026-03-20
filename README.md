@@ -53,6 +53,11 @@ src/
 └── router/index.ts
 ```
 
+## Validações
+
+- Nome do jogador não pode ser repetido
+- Nome do jogador não pode ser vazio
+
 ## Decisões técnicas 
 
 - [Transitions](https://vuejs.org/guide/built-ins/transition) (funcionalidade do vue) para as cartas e para o modal de ranking.
