@@ -2,9 +2,18 @@
 
   <div class="tabuleiro">
 
-    <p><strong>Jogador Atual:</strong> {{ jogadorAtual }}</p>
-    <p><strong>Jogadas:</strong> {{ jogadas }}</p>
-
+    <div class="tabuleiro-content-infos">
+        <div class="item">
+          <span class="label">Jogador</span>
+          <span class="valor">{{ jogadorAtual }}</span>
+        </div>
+        <div class="dividir" />
+        <div class="item">
+          <span class="label">Jogadas</span>
+          <span class="valor">{{ jogadas }}</span>
+        </div>
+    </div>
+  
     <div class="cartas">
       <Carta
         v-for="carta in cartasEmbaralhadas"
@@ -72,6 +81,53 @@ const abrirCarta = (id: number, id_ordem: number) => {
   flex-direction: column;
   gap: 24px;
 
+  .tabuleiro-content {
+    align-items: center;
+    background: var(--superficie);
+    border: 1px solid var(--borda);
+    border-radius: var(--radius);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 24px;
+    width: fit-content;
+  }
+  
+  .tabuleiro-content-infos {
+    align-items: center;
+    background: var(--superficie);
+    border: 1px solid var(--borda);
+    border-radius: var(--radius);
+    box-shadow: 0 0 10px var(--borda);
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 16px 24px;
+    width: 100%;
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      text-align: center;
+      
+      .label {
+        color: var(--texto);
+        font-size: 11px;
+        letter-spacing: 0.08em;
+        opacity: 0.5;
+        text-transform: uppercase;
+      }
+      
+      .valor {
+        color: var(--texto);
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+    }
+  }
+
   p {
     font-size: 16px;
   }
@@ -80,6 +136,7 @@ const abrirCarta = (id: number, id_ordem: number) => {
     display: grid;
     gap: 24px;
     grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
     width: 100%;
 
     @media (max-width: 864px) {
