@@ -2,6 +2,8 @@ site_name: Jogo da Memória
 site_description: Documentação do projeto Jogo da Memória — desafio técnico desenvolvido com Vue 3, TypeScript e Pinia.
 site_author: Gabriel
 docs_dir: docs
+repo_name: "https://github.com/GabrielDuarteRB/jogo-da-memoria"
+site_url: "https://GabrielDuarteRB.github.io/jogo-da-memoria/"
 
 theme:
   name: material
