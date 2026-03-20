@@ -9,7 +9,7 @@ export const useJogadorStore = defineStore('jogadorStore', () => {
 
     const jogadorAtual = computed(() => jogadores.value[jogadores.value.length - 1])
 
-    const jogadasJogadorAtual = computed(() => jogadas.value[jogadas.value.length - 1] ?? 0)
+    const jogadasJogadorAtual = computed(() => jogadas.value[jogadores.value.length - 1] ?? 0)
 
     const ranking = computed((): JogadorRankingInterface[] => {
         return jogadores.value
