@@ -26,7 +26,7 @@ O projeto estará disponível em `http://localhost:5173`
 
 ## Links externos
 
--[Site do jogo](https://jogo-da-memoria-git-master-gabrielduarterbs-projects.vercel.app/)
+- [Site do jogo](https://jogo-da-memoria-alpha-two.vercel.app/)
 - [Documentação do projeto](https://gabrielduarterb.github.io/jogo-da-memoria/)
 
 ## Regras do jogo

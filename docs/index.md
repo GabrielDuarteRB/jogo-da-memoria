@@ -27,4 +27,4 @@ Projeto desenvolvido para desafio técnico.
 
 ## Links externos
 
-O projeto está disponível em [https://jogo-da-memoria-git-master-gabrielduarterbs-projects.vercel.app/](https://jogo-da-memoria-git-master-gabrielduarterbs-projects.vercel.app/)
+O projeto está disponível em [https://jogo-da-memoria-alpha-two.vercel.app](https://jogo-da-memoria-alpha-two.vercel.app)
