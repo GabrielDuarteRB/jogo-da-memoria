@@ -1,0 +1,33 @@
+:root {
+  --primaria: #7c6af7;
+  --fundo: #0d0d0f;
+  --superficie: #1e1e24;
+  --texto: #e8e8f0;
+  --borda: #2a2a35;
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background: var(--fundo);
+  color: var(--texto);
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}

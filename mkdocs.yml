@@ -1,0 +1,41 @@
+site_name: Jogo da Memória
+site_description: Documentação do projeto Jogo da Memória — desafio técnico desenvolvido com Vue 3, TypeScript e Pinia.
+site_author: Gabriel
+docs_dir: docs
+
+theme:
+  name: material
+  language: pt
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Mudar para modo escuro
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Mudar para modo claro
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+
+nav:
+  - Início: index.md
+  - Como executar: como-executar.md
+  - Regras do jogo: regras.md
+  - Estrutura do projeto: estrutura.md
+  - Decisões técnicas: decisoes-tecnicas.md
+  - Decisões de design: decisoes-design.md
